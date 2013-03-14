@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+<data>
+  <file filename="_config.xml">
+    <data>
+      <config>
+        <website-name>Symphony</website-name>
+      </config>
+    </data>
+  </file>
+  <file filename="_navigation.xml">
+    <data>
+      <navigation site="community" type="primary">
+        <page handle="stream" type="index">
+          <name>Stream</name>
+        </page>
+        <page handle="discussions">
+          <name>Discussions</name>
+          <page handle="post">
+            <name>Discussion</name>
+          </page>
+        </page>
+        <page handle="questions">
+          <name>Questions</name>
+        </page>
+        <page handle="blog">
+          <name>Blog</name>
+        </page>
+        <page handle="showcase">
+          <name>Showcase</name>
+        </page>
+        <page handle="events">
+          <name>Events</name>
+        </page>
+        <page handle="about">
+          <name>About</name>
+        </page>
+      </navigation>
+      <navigation site="docs">
+        <page handle="guides">
+          <name>Guides</name>
+        </page>
+        <page handle="tutorials">
+          <name>Tutorials</name>
+        </page>
+        <page handle="articles">
+          <name>Articles</name>
+        </page>
+        <page handle="concepts">
+          <name>Concepts</name>
+        </page>
+        <page handle="faq">
+          <name>FAQ</name>
+        </page>
+        <page handle="api">
+          <name>API</name>
+        </page>
+      </navigation>
+      <navigation site="ext">
+        <page handle="extensions">
+          <name>Browse Extensions</name>
+        </page>
+        <page handle="matrix">
+          <name>Compatibility Matrix</name>
+        </page>
+      </navigation>
+      <navigation site="ninjas">
+        <page handle="interviews">
+          <name>Interviews</name>
+        </page>
+        <page handle="directory">
+          <name>Directory</name>
+        </page>
+        <page handle="about">
+          <name>Learn More</name>
+        </page>
+      </navigation>
+      <navigation site="xpathr">
+        <page handle="popular">
+          <name>Popular</name>
+        </page>
+        <page handle="recent">
+          <name>Recent</name>
+        </page>
+        <page handle="categories">
+          <name>Categories</name>
+        </page>
+        <page handle="contributors">
+          <name>Contributors</name>
+        </page>
+      </navigation>
+    </data>
+  </file>
+  <file filename="_network.xml">
+    <data>
+      <network>
+        <site handle="community" domain="getsymphony.com" type="primary">
+          <name>Community</name>
+        </site>
+        <site handle="docs" domain="docs.getsymphony.com">
+          <name>Documentation</name>
+        </site>
+        <site handle="ext" domain="ext.getsymphony.com">
+          <name>Extensions</name>
+        </site>
+        <site handle="ninjas" domain="ninjas.getsymphony.com">
+          <name>Ninjas</name>
+        </site>
+        <site handle="xpathr" domain="xpathr.getsymphony.com">
+          <name>xpathr</name>
+        </site>
+      </network>
+    </data>
+  </file>
+  <file filename="_pages.xml">
+    <data>
+      <pages>
+        <page output="network/index.html" xslt="pages/network.xsl" data-source="data/network.xml">
+          <title>Network</title>
+        </page>
+        <page output="index.html" xslt="pages/index.xsl" data-source="data/index.xml">
+          <title>Community</title>
+        </page>
+        <page output="stream/index.html" xslt="pages/stream.xsl" data-source="data/stream.xml">
+          <title>Stream</title>
+        </page>
+        <page output="discussions/index.html" xslt="pages/discussions.xsl" data-source="data/discussions.xml">
+          <title>Discussions</title>
+        </page>
+        <page output="discussions/post/index.html" xslt="pages/discussions_post.xsl" data-source="data/discussions_post.xml">
+          <title>Discussion</title>
+        </page>
+        <page output="questions/index.html" xslt="pages/questions.xsl" data-source="data/questions.xml">
+          <title>Questions</title>
+        </page>
+        <page output="blog/index.html" xslt="pages/blog.xsl" data-source="data/blog.xml">
+          <title>Blog</title>
+        </page>
+        <page output="showcase/index.html" xslt="pages/showcase.xsl" data-source="data/showcase.xml">
+          <title>Showcase</title>
+        </page>
+        <page output="events/index.html" xslt="pages/events.xsl" data-source="data/events.xml">
+          <title>Events</title>
+        </page>
+        <page output="about/index.html" xslt="pages/about.xsl" data-source="data/about.xml">
+          <title>About</title>
+        </page>
+        <page output="docs/index.html" xslt="pages/docs.xsl" data-source="data/docs.xml">
+          <title>Documentation</title>
+        </page>
+        <page output="docs/guides/index.html" xslt="pages/docs_guides.xsl" data-source="data/docs_guides.xml">
+          <title>Guides</title>
+        </page>
+        <page output="docs/tutorials/index.html" xslt="pages/docs_tutorials.xsl" data-source="data/docs_tutorials.xml">
+          <title>Tutorials</title>
+        </page>
+        <page output="docs/articles/index.html" xslt="pages/docs_articles.xsl" data-source="data/docs_articles.xml">
+          <title>Articles</title>
+        </page>
+        <page output="docs/concepts/index.html" xslt="pages/docs_concepts.xsl" data-source="data/docs_concepts.xml">
+          <title>Concepts</title>
+        </page>
+        <page output="docs/faq/index.html" xslt="pages/docs_faq.xsl" data-source="data/docs_faq.xml">
+          <title>FAQ</title>
+        </page>
+        <page output="docs/api/index.html" xslt="pages/docs_api.xsl" data-source="data/docs_api.xml">
+          <title>API</title>
+        </page>
+        <page output="ext/index.html" xslt="pages/ext.xsl" data-source="data/ext.xml">
+          <title>Extensions</title>
+        </page>
+        <page output="ext/extensions/index.html" xslt="pages/ext_extensions.xsl" data-source="data/ext_extensions.xml">
+          <title>Browse Extensions</title>
+        </page>
+        <page output="ext/matrix/index.html" xslt="pages/ext_matrix.xsl" data-source="data/ext_matrix.xml">
+          <title>Compatibility Matrix</title>
+        </page>
+        <page output="ninjas/index.html" xslt="pages/ninjas.xsl" data-source="data/ninjas.xml">
+          <title>Ninjas</title>
+        </page>
+        <page output="ninjas/interviews/index.html" xslt="pages/ninjas_interviews.xsl" data-source="data/ninjas_interviews.xml">
+          <title>Interviews</title>
+        </page>
+        <page output="ninjas/directory/index.html" xslt="pages/ninjas_directory.xsl" data-source="data/ninjas_directory.xml">
+          <title>Directory</title>
+        </page>
+        <page output="ninjas/about/index.html" xslt="pages/ninjas_about.xsl" data-source="data/ninjas_about.xml">
+          <title>Learn More</title>
+        </page>
+        <page output="xpathr/index.html" xslt="pages/xpathr.xsl" data-source="data/xpathr.xml">
+          <title>xpathr</title>
+        </page>
+        <page output="xpathr/popular/index.html" xslt="pages/xpathr_popular.xsl" data-source="data/xpathr_popular.xml">
+          <title>Popular</title>
+        </page>
+        <page output="xpathr/recent/index.html" xslt="pages/xpathr_recent.xsl" data-source="data/xpathr_recent.xml">
+          <title>Recent</title>
+        </page>
+        <page output="xpathr/categories/index.html" xslt="pages/xpathr_categories.xsl" data-source="data/xpathr_categories.xml">
+          <title>Categories</title>
+        </page>
+        <page output="xpathr/contributors/index.html" xslt="pages/xpathr_contributors.xsl" data-source="data/xpathr_contributors.xml">
+          <title>Contributors</title>
+        </page>
+      </pages>
+    </data>
+  </file>
+  <file filename="index.xml">
+    <data>
+      <params>
+        <site handle="docs">Documentation</site>
+        <page-title>Home</page-title>
+        <current-page>home</current-page>
+        <root>.</root>
+      </params>
+      <content>
+        <!-- Field with sidebar -->
+        <div class="field">
+          <div class="column sidebar">
+            <h3>Filter</h3>
+            <ul class="sidebar-filter">
+              <li>
+                <a href="#">Important</a>
+              </li>
+              <li>
+                <a href="#">Starred</a>
+              </li>
+            </ul>
+            <h3>Make a Post</h3>
+            <ul>
+              <li>
+                <a href="#">Create a Discussion</a>
+              </li>
+              <li>
+                <a href="#">Pose a Question</a>
+              </li>
+              <li>
+                <a href="#">Submit a Showcase</a>
+              </li>
+              <li>
+                <a href="#">Register an Event</a>
+              </li>
+            </ul>
+          </div>
+          <div class="column content">
+            <!-- Search -->
+            <form class="entry-search justified">
+              <input type="text" placeholder="Type to search &#x2026;"/>
+            </form>
+            <!-- Discussions -->
+            <article class="entry-overview justified">
+              <h3 class="entry-header">
+                <a href="/discussions/post/" class="dark">Who's online: how did you hear about Symphony?</a>
+              </h3>
+              <p class="entry-author dimmed">Discussion by <a href="#" class="dark">bauhouse</a></p>
+              <p class="entry-activity">
+                <a href="#" class="dark">Tintin81</a>
+                <time class="relative" datetime="2012-12-17T02:06">17 Dec 12, 2:06 pm</time>
+              </p>
+              <p class="entry-meta">
+                <a href="#" class="entry-count">226 <em class="entry-difference">17</em></a>
+              </p>
+            </article>
+            <article class="entry-overview justified">
+              <h3 class="entry-header">
+                <a href="/discussions/post/" class="dark">System Date Fields</a>
+              </h3>
+              <p class="entry-author dimmed">Extension by <a href="#" class="dark">designermonkey</a></p>
+              <p class="entry-activity">
+                <a href="#" class="dark">designermonkey</a>
+                <time class="relative" datetime="2012-12-20T03:09">20 Dec 2012</time>
+              </p>
+              <p class="entry-meta">
+                <a href="#" class="entry-count">5 <em class="entry-difference">2</em></a>
+              </p>
+            </article>
+            <article class="entry-overview justified">
+              <h3 class="entry-header">
+                <a href="/discussions/post/" class="dark">ACE Editors</a>
+              </h3>
+              <p class="entry-author dimmed">Discussion by <a href="#" class="dark">tonyarnold</a></p>
+              <p class="entry-activity">
+                <a href="#" class="dark">moonoo2</a>
+                <time class="relative" datetime="2012-12-20T02:07">20 Dec 2012</time>
+              </p>
+              <p class="entry-meta">
+                <a href="#" class="entry-count">4 <em class="entry-difference">1</em></a>
+              </p>
+            </article>
+            <article class="entry-overview justified">
+              <h3 class="entry-header">
+                <a href="/discussions/post/" class="dark">APIPage</a>
+              </h3>
+              <p class="entry-author dimmed">Extension by <a href="#" class="dark">iwyg</a></p>
+              <p class="entry-activity">
+                <a href="#" class="dark">jensscherbl</a>
+                <time class="relative" datetime="2012-12-20T01:58">20 Dec 2012</time>
+              </p>
+              <p class="entry-meta">
+                <a href="#" class="entry-count">5</a>
+              </p>
+            </article>
+            <article class="entry-overview justified">
+              <h3 class="entry-header">
+                <a href="/discussions/post/" class="dark">JIT Filter - Resize and fit "inside"</a>
+              </h3>
+              <p class="entry-author dimmed">Discussion by <a href="#" class="dark">germchaos</a></p>
+              <p class="entry-activity">
+                <a href="#" class="dark">germchaos</a>
+                <time class="relative" datetime="2012-12-20T01:45">20 Dec 2012</time>
+              </p>
+              <p class="entry-meta">
+                <a href="#" class="entry-count">5</a>
+              </p>
+            </article>
+            <article class="entry-overview justified">
+              <h3 class="entry-header">
+                <a href="/discussions/post/" class="dark">Encrypt field contents. Extension?</a>
+              </h3>
+              <p class="entry-author dimmed">Discussion by <a href="#" class="dark">Henry</a></p>
+              <p class="entry-activity">
+                <a href="#" class="dark">davecoggins</a>
+                <time class="relative" datetime="2012-12-20T12:58">20 Dec 2012</time>
+              </p>
+              <p class="entry-meta">
+                <a href="#" class="entry-count">3</a>
+              </p>
+            </article>
+            <article class="entry-overview justified">
+              <h3 class="entry-header">
+                <a href="/discussions/post/" class="dark">Unsetting Checkbox from frontend form</a>
+              </h3>
+              <p class="entry-author dimmed">Discussion by <a href="#" class="dark">moonoo2</a></p>
+              <p class="entry-activity">
+                <a href="#" class="dark">michael-e</a>
+                <time class="relative" datetime="2012-12-20T12:38">20 Dec 2012</time>
+              </p>
+              <p class="entry-meta">
+                <a href="#" class="entry-count">13</a>
+              </p>
+            </article>
+            <article class="entry-overview justified">
+              <h3 class="entry-header">
+                <a href="/discussions/post/" class="dark">best way to access system date and author on section entrys?</a>
+              </h3>
+              <p class="entry-author dimmed">Discussion by <a href="#" class="dark">jeffstrt</a></p>
+              <p class="entry-activity">
+                <a href="#" class="dark">moonoo2</a>
+                <time class="relative" datetime="2012-12-20T02:01">20 Dec 2012</time>
+              </p>
+              <p class="entry-meta">
+                <a href="#" class="entry-count">3</a>
+              </p>
+            </article>
+            <article class="entry-overview justified">
+              <h3 class="entry-header">
+                <a href="/discussions/post/" class="dark">Multilevel Dropdown or Flyout Admin Nav</a>
+              </h3>
+              <p class="entry-author dimmed">Discussion by <a href="#" class="dark">heskethm</a></p>
+              <p class="entry-activity">
+                <a href="#" class="dark">heskethm</a>
+                <time class="relative" datetime="2012-12-20T00:31">20 Dec 2012</time>
+              </p>
+              <p class="entry-meta">
+                <a href="#" class="entry-count">0</a>
+              </p>
+            </article>
+            <!-- Pagination -->
+            <nav class="pagination">
+              <a class="pagination-prev">Previous</a>
+              <div class="pagination-pages">
+                <a href="#" class="selected">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">7</a>
+                <a href="#">8</a>
+                <a href="#">9</a>
+                <a href="#">10</a>
+                <a href="#" class="pagination-ellipsis">176</a>
+                <a href="#">177</a>
+              </div>
+              <a href="#" class="pagination-next">Next</a>
+            </nav>
+          </div>
+        </div>
+      </content>
+    </data>
+  </file>
+</data>
